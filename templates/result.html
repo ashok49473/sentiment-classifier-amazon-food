@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}result{% endblock %}
+
+{% block content %}
+	{% if sentiment == "positive" %}
+	<div align="center">
+		<h2>Hurray!! It's a positive review.</h2><br>
+		<img src = "..\static\images\positive.png" class = "img-rounded" width="300" height="300">
+	</div>
+
+	{% else %}
+	<div align="center">
+		<h2>Hmm.. It's a negative review.</h2><br>
+		<img src = "..\static\images\negative.png" class = "img-rounded" width="300" height="300">
+	</div>
+	{% endif %}
+{% endblock %}

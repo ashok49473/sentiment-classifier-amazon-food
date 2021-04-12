@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<form method="POST" action="{{ url_for('predict') }}">
+  <br><h3 align="center">Sentiment Classifier</h3><br>
+  <textarea name="review" class="form-control" placeholder="Write here ..."></textarea>
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Predict</button>
+  </div>
+</form>
+{% endblock %}
