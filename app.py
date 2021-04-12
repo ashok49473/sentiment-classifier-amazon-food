@@ -4,12 +4,7 @@ from flask import Flask, render_template, request
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from nltk.stem import PorterStemmer
-try:
-	from nltk.corpus import stopwords
-except Exception as e:
-	import nltk
-	nltk.download('stopwords')
-	from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 
 import re
 import string
