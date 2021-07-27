@@ -16,10 +16,10 @@
  
  ## Run this application☢
  - Step 1: Download zip file and extract or clone this repository<br>
- `git clone https://github.com/ashok49473/se`
+ `git clone https://github.com/ashok49473/sentiment-classifier-amazon-food.git`
 
 - Step 2: Open your command promt<br>
-change directory : `cd desktop/malaria-detection`
+change directory : `cd desktop/sentiment-classifier-amazon-food`
 
  - Step 3: Install dependencies<br>
 `pip install -r requirements.txt`
@@ -31,7 +31,7 @@ change directory : `cd desktop/malaria-detection`
 
 ## Demo
  - Home Page<br>
-  <img src="https://github.com/ashok49473/malaria-detection/blob/main/static/images/Home.png" width="75%"><br>
+  <img src="https://github.com/ashok49473/sentiment-classifier-amazon-food/blob/main/static/images/Home.png" width="75%"><br>
   
  - Result<br>
- <img src="https://github.com/ashok49473/malaria-detection/blob/main/static/images/result.png" width="75%">
+ <img src="https://github.com/ashok49473/sentiment-classifier-amazon-food/blob/main/static/images/result.png" width="75%">
