@@ -3,7 +3,7 @@
 - A web application to predict whether the given amazon's fine food review is positive or negative using machine learning and NLP.
 - Analyzed nearly 500,000 food reviews from Amazon and built a ML model to predict the sentiment.
 - Achieved training accuracy of 0.90 & testing accuracy of 0.89
-
+## Live app : https://amzn-food-sentiment-classifier.herokuapp.com/
 ## Tools used🛠
  - Python 3.7
  - Libraries
