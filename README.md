@@ -31,7 +31,7 @@ change directory : `cd desktop/sentiment-classifier-amazon-food`
 
 ## Demo
  - Home Page<br>
-  <img src="https://github.com/ashok49473/sentiment-classifier-amazon-food/blob/main/static/images/Home.png" width="75%"><br>
+  <img src="https://github.com/ashok49473/sentiment-classifier-amazon-food/blob/main/static/images/home.png" width="75%"><br>
   
  - Result<br>
  <img src="https://github.com/ashok49473/sentiment-classifier-amazon-food/blob/main/static/images/result.png" width="75%">
